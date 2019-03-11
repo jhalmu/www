@@ -30,6 +30,7 @@ a {
     color: #fafafa;
     text-decoration: none;
     display: inline;
+    cursor: pointer;
 }
 
 #container {
