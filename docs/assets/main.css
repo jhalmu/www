@@ -86,15 +86,7 @@ footer {
         visibility: hidden;
     }
   }
-  @media screen and (min-width:1024px) {
-    body {
-      color: #fafafa;
-    }
-        
-    p {
-        font-size: .9em;
-    }
-  }
+ 
   @media screen and (max-width: 400px) {
     body {
       color: #ffffff;
@@ -120,5 +112,8 @@ footer {
         
     p {
         font-size: .9em;
+    }
+    section {
+        padding-top:10%;
     }
   }
