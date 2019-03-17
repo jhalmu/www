@@ -3,7 +3,7 @@
 html,
 body {
     font-family: 'Montserrat', serif;
-    font-size: 1.5vw;
+    font-size: 1.1hw;
     background-color: rgb(114, 114, 0);
     color: #ffffff;
     margin: 0;
@@ -17,7 +17,13 @@ p {
 }
 
 header {
-    height: 10vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(84, 84, 23);
+    color: white;
+    text-align: center;
 }
 
 nav {
@@ -25,11 +31,13 @@ nav {
     text-align: center;
     justify-content: flex-end;
     padding-right: 2%;
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 nav a {
-    color: #000000;
+    color: #cacaca;
+    text-transform: uppercase;
+    font-weight: 400; 
 }
 
 nav>ul,
@@ -39,7 +47,7 @@ a {
     text-decoration: none;
     display: inline;
     cursor: pointer;
-    color: #e21c1c;
+    text-transform: uppercase; 
 }
 
 a:hover {
@@ -48,6 +56,7 @@ a:hover {
     display: inline;
     cursor: pointer;
     color: olivedrab;
+    text-transform: uppercase; 
 }
 
 #container {
@@ -71,6 +80,9 @@ h1 {
     color: #ffffff;
     font-weight: 200;
 }
+#sect1>h1 {
+    font-family: 'Calligraffitti', cursive;
+}
 
 h2 {
     font-size: 3em;
@@ -93,7 +105,7 @@ footer {
 }
 
 footer a {
-    color: white;
+    color: #cacaca;
 }
 
 .center {
@@ -107,12 +119,12 @@ footer a {
         height: 100%;
     }
 
-    p {
+    h1 {
         font-size: 2em;
     }
 
-    footer {
-        font-size: 2em;
+    p, footer, a {
+        font-size: 1.5em;
     }
 
     section {
@@ -129,13 +141,11 @@ footer a {
         color: #ffffff;
         height: 100%;
     }
-
-    p {
+    h1 {
         font-size: 2em;
     }
-
-    footer {
-        font-size: 2em;
+    p, footer {
+        font-size: 1.5em;
     }
 
     section {
@@ -162,6 +172,6 @@ footer a {
 
     nav,
     footer a {
-        font-size: 1em;
+        font-size: .9em;
     }
 }
